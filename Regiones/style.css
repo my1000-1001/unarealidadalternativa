@@ -1,0 +1,103 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap');
+
+
+body > header{
+    position: fixed;
+    padding: 10px 5%;
+    background-image: linear-gradient(to right, #307FB5, #000087);
+    color: white;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+header>*{
+    display: inline-table;
+}
+
+.logo{
+    height: 60px;
+    align-items: flex-start;
+}
+
+.emptiness{
+    width:10%;
+}
+
+header nav{
+    width:10%;
+    position: absolute;
+    bottom: 100;
+}
+
+#bond{
+    font-weight: 500;
+    font-size: 14px;
+    color: #17BA2F;
+    text-decoration: none;
+    margin-right: 75px;
+}
+
+body{
+    background-image: url("https://platform.kodland.org//uploads/filesharing_tasks/task_116007/students/student_harold54359/map.png");
+}
+
+article{
+    font-size: 30px;
+    color: blue;
+    font-family: roboto;
+    display: block;
+}
+
+body>*{
+    padding: 15px;
+    border-bottom: none;
+    border-top: none;
+    margin: auto;
+    width: 100%;
+}
+
+.letter{
+            color: grey;
+        }
+
+#more{
+    font-family: 'roboto';
+    font-size: 20px;
+    display: table;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #ff0000, #aa0000);
+    padding: 5px 1px;
+}
+
+.region{
+    font-family: roboto;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:673px;
+    padding: 0 50px 0 165px;
+    position: relative;
+}
+
+footer{
+    background-color: #285194;
+    height: 100px;
+    display: block;
+}
+
+footer a{
+      display: grid;
+      font-family: 'minion';
+      font-size: 20px;
+      border: solid;
+      background-color: white;
+      text-align: center;
+      margin: 750px 750px;
+      text-indent: 10px 0;
+      text-decoration: none;
+}

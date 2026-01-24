@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+
+body{
+    margin:0;
+    font-family: 'Inter';
+    background-color: #7df6ff;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0 165px;
+    font-family: 'Pacifico';
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:673px;
+    padding: 0 50px 0 165px;
+    position: relative;
+}
+.section1::after{
+    content:"";
+    display: inline-block;
+    width: 640px;
+    height:640px;
+    border-radius: 640px;
+    background-color: #7df6ff;
+    position: absolute;
+    top:13px;
+    right:65px;
+    z-index: -1;
+}
+
+.section2{
+    background-color: #bdca30;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding:80px 0;
+}
+
+.section2>h1{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cards{
+    display: flex;
+    margin:48px 0;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width:350px;
+    border-radius: 8px;
+    background-color: white;
+    padding:40px;
+    margin-right: 30px;
+}
+.card img{
+    width:32px;
+    height:32px;
+}
+.card h2{
+    font-weight: 600;
+    font-size: 24px;
+}
+.card p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+}
+.card a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    color: #7608AA;
+}
+.section2>a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    border:1px solid white;
+    padding:12px 20px;
+    border-radius:6px;
+}
+/*article design*/
+.article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:668px;
+}
+.article:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.article img{
+    width:540px;
+    height:540px;
+    margin-right:64px;
+}
+.article:nth-child(odd) img{
+    margin-left:64px;
+    margin-right:0;
+}
+.article-text{
+    width:540px;
+}
+.article-text h3{
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFAD00;
+}
+.article-text h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: #18191F;
+}
+.article-text p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+.article-text a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    color: #7608AA;
+}

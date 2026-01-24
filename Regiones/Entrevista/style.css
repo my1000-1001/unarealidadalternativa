@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+
+body{
+    margin:0;
+    font-family: 'Inter';
+    background-image: url("https://platform.kodland.org//uploads/filesharing_tasks/task_115888/students/student_harold54359/Mejor.png");
+}
+
+
+
+/*website header design*/
+header > h1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 5px 5px;
+    background: red;
+}
+
+header > h2{
+    border: 5px groove gold;
+    background-color: orange;
+    margin: 100px 100px;
+}
+
+body > header > h2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    padding: 100px 50px;
+    background: red;
+}
+
+
+.parrafo{
+    font-family: cursive;
+    display: block;
+}
+
+.pregunta{
+    font-family: fantasy;
+}
+
+#xd{
+    font-family: minion;
+    display: block;
+}
+
+#respuesta{
+    font-family: arial;
+}
+
+#pagina{
+    display: block;
+    border: 10px double #4E64EF;
+    font-weight: 500px;
+    font-size: 72px;
+    margin: 25% 25%;
+    padding: 5% 5%;
+    font-family: firebrick;
+}
+
+a{
+   border: 10px double #4E64EF;
+   margin: 25% 25%;
+   display: inline;
+   text-decoration: none;
+}
+
+footer{
+    font-weight: 500;
+    font-size: 12px;
+    color: #7608AA;
+}
